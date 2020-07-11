@@ -71,6 +71,10 @@
 #include <stm32f3xx_ll_adc.h>
 #endif
 
+#ifdef CONFIG_DAC_STM32
+#include <stm32f3xx_ll_dac.h>
+#endif
+
 #ifdef CONFIG_DMA_STM32
 #include <stm32f3xx_ll_dma.h>
 #endif
