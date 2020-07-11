@@ -145,3 +145,7 @@
 &iwdg {
 	status = "okay";
 };
+
+&dac1 {
+	status = "okay";
+};

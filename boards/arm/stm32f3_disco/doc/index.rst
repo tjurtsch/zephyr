@@ -98,6 +98,8 @@ features:
 +-----------+------------+-------------------------------------+
 | IWDG      | on-chip    | Independent WatchDoG                |
 +-----------+------------+-------------------------------------+
+| DAC       | on-chip    | DAC Controller                      |
++-----------+------------+-------------------------------------+
 
 Other hardware features are not yet supported on Zephyr porting.
 
@@ -148,6 +150,7 @@ Default Zephyr Peripheral Mapping:
 - LD8 : PE14
 - LD9 : PE12
 - LD10 : PE13
+- DAC : PA4
 
 System Clock
 ============
