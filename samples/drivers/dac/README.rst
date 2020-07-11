@@ -35,6 +35,17 @@ The sample can be built and executed for the
    :goals: build flash
    :compact:
 
+Building and Running for STM32F3 Discovery
+==========================================
+The sample can be built and executed for the
+:ref:`stm32f3_disco` as follows:
+
+.. zephyr-app-commands::
+   :zephyr-app: samples/drivers/dac
+   :board: stm32f3_disco
+   :goals: build flash
+   :compact:
+
 Building and Running for NXP TWR-KE18F
 ======================================
 The sample can be built and executed for the :ref:`twr_ke18f` as
