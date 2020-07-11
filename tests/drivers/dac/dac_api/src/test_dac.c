@@ -17,7 +17,8 @@
 #include <ztest.h>
 
 #if defined(CONFIG_BOARD_NUCLEO_L073RZ) || \
-	defined(CONFIG_BOARD_NUCLEO_L152RE)
+	defined(CONFIG_BOARD_NUCLEO_L152RE) || \
+	defined(CONFIG_BOARD_STM32F3_DISCO)
 
 #define DAC_DEVICE_NAME		DT_LABEL(DT_NODELABEL(dac1))
 #define DAC_CHANNEL_ID		1
